@@ -1,0 +1,53 @@
+[DEBUG] 13:19:40:512 mongostore/(14384:14384): LOGGER OK
+[INFO] 13:19:40:513 mongostore/(14384:14384): Configuracion leida y almacenada en "configuracion"
+[DEBUG] 13:19:40:513 mongostore/(14384:14384): Testeo config, la IP es: 127.0.0.1
+[DEBUG] 13:19:40:513 mongostore/(14384:14384): IO-Al salir de superbloque_asignar_memoria_a_bitmap se tiene bitmap_size 4096
+[DEBUG] 13:19:40:513 mongostore/(14384:14384): O-Superbloque levantado desde archivo
+[INFO] 13:19:41:716 mongostore/(14384:14384): Se eliminan archivos previos
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): IO-Al salir de superbloque_asignar_memoria_a_bitmap se tiene bitmap_size 4096
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): Se ingreso por block_size 100 y blocks 32768. Ademas se genero el bitmap vacio
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): O-Archivo SuperBloque.ims cargado
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): O-Blocks mapeado del archivo a la memoria
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): O-Existencia de Blocks validada
+[DEBUG] 13:19:47:945 mongostore/(14384:14384): Existencia de metadata para el recurso OXIGENO validada. Valor fijo CARACTER_LLENADO O
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Existencia de metadata para el recurso COMIDA validada. Valor fijo CARACTER_LLENADO C
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Existencia de metadata para el recurso BASURA validada. Valor fijo CARACTER_LLENADO B
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Salgo de recursos_validar_existencia_metadatas()
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Directorios del File System confirmados
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Se ingresa a bitacoras_obtener_cadena_con_el_total_de_bloques_ocupados()
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): salgo de t_list* bitacoras_obtener_lista_con_rutas_completas()
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Los bloques ocupados por el total de las bitacoras son []
+[DEBUG] 13:19:47:946 mongostore/(14384:14384): Los bloques [] fueron liberados en el bitmap del superbloque y en la copia de Blocks.ims
+[INFO] 13:19:47:947 mongostore/(14384:14384): File System iniciado
+[DEBUG] 13:19:47:947 mongostore/(14384:14384): Se entra a blocks_abrir_hilo
+[INFO] 13:19:47:947 mongostore/(14384:14384): pid 14384  
+
+[INFO] 13:19:47:947 mongostore/(14384:14391): Servidor iniciando 2
+[INFO] 13:19:47:948 mongostore/(14384:14391): Servidor Mongo2 encendido
+[INFO] 13:19:47:948 mongostore/(14384:14390): Servidor iniciando
+[INFO] 13:19:47:948 mongostore/(14384:14390): Servidor Mongo encendido
+[INFO] 13:19:50:834 mongostore/(14384:14390): post socket_cliente
+[INFO] 13:19:50:834 mongostore/(14384:14390): Estableciendo conexión desde 64695
+[INFO] 13:19:50:834 mongostore/(14384:14390): Creando hilo
+[DEBUG] 13:19:50:834 mongostore/(14384:14394): Se ingresa a funcion_cliente
+[INFO] 13:19:50:834 mongostore/(14384:14394): Se conecto el socket 7
+[INFO] 13:20:20:602 mongostore/(14384:14390): post socket_cliente
+[INFO] 13:20:20:602 mongostore/(14384:14390): Estableciendo conexión desde 696
+[INFO] 13:20:20:602 mongostore/(14384:14390): Creando hilo
+[DEBUG] 13:20:20:602 mongostore/(14384:14413): Se ingresa a funcion_cliente
+[INFO] 13:20:20:602 mongostore/(14384:14413): Se conecto el socket 8
+[INFO] 13:20:20:602 mongostore/(14384:14390): post socket_cliente
+[INFO] 13:20:20:602 mongostore/(14384:14390): Estableciendo conexión desde 1720
+[INFO] 13:20:20:602 mongostore/(14384:14390): Creando hilo
+[DEBUG] 13:20:20:603 mongostore/(14384:14415): Se ingresa a funcion_cliente
+[INFO] 13:20:20:603 mongostore/(14384:14415): Se conecto el socket 9
+[INFO] 13:20:20:603 mongostore/(14384:14390): post socket_cliente
+[INFO] 13:20:20:603 mongostore/(14384:14390): Estableciendo conexión desde 2744
+[INFO] 13:20:20:603 mongostore/(14384:14390): Creando hilo
+[DEBUG] 13:20:20:604 mongostore/(14384:14417): Se ingresa a funcion_cliente
+[INFO] 13:20:20:604 mongostore/(14384:14417): Se conecto el socket 10
+[INFO] 13:20:20:608 mongostore/(14384:14413): fin de hilo tripulante
+[INFO] 13:20:22:610 mongostore/(14384:14415): fin de hilo tripulante
+[INFO] 13:20:24:626 mongostore/(14384:14417): fin de hilo tripulante
+[ERROR] 13:20:53:258 mongostore/(14384:14394): recv devuelve 0 en recibir_operacion
+[INFO] 13:20:53:259 mongostore/(14384:14394): El cliente se desconecto.
