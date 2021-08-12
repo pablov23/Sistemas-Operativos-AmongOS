@@ -8,5 +8,6 @@ Cabe aclarar que esta es una distribución de trabajo estimativa y tentativa que
 - Mi-RAM HQ: 2,
 - i-Mongo-Store: 1,5
 
+![Diagrama](diagrama.PNG)
 
 Por último, se recuerda que desarrollar únicamente temas de conectividad, serialización y sincronización es insuficiente para poder entender y aprender los distintos conceptos de la materia por lo que será un motivo de desaprobación.
